@@ -60,7 +60,7 @@
     <circle cx="462" cy="188" r="15" fill="none" stroke="#5CF2A6" stroke-width="2.5" filter="url(#glow)"/>
     <line x1="462" y1="188" x2="462" y2="178" stroke="#5CF2A6" stroke-width="2.5" stroke-linecap="round"/>
     <line x1="462" y1="188" x2="469" y2="192" stroke="#5CF2A6" stroke-width="2.5" stroke-linecap="round"/>
-    <text x="507" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">3+</text>
+    <text x="507" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">7+</text>
     <text x="507" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8B98A5">Years of coding</text>
 
     <rect x="794" y="140" width="346" height="110" rx="12" fill="url(#cardBg)" stroke="#2A3A55" stroke-width="1.5"/>

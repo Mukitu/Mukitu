@@ -53,7 +53,7 @@
   <g>
     <rect x="60" y="140" width="346" height="110" rx="12" fill="url(#cardBg)" stroke="#2A3A55" stroke-width="1.5"/>
     <polygon points="95,175 110,195 80,195" fill="#67D6FF" filter="url(#glow)"/>
-    <text x="140" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">15+</text>
+    <text x="140" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">30+</text>
     <text x="140" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8B98A5">Projects shipped</text>
 
     <rect x="427" y="140" width="346" height="110" rx="12" fill="url(#cardBg)" stroke="#2A3A55" stroke-width="1.5"/>
@@ -65,7 +65,7 @@
 
     <rect x="794" y="140" width="346" height="110" rx="12" fill="url(#cardBg)" stroke="#2A3A55" stroke-width="1.5"/>
     <path d="M812 195 L822 175 L832 188 L842 172 L852 195 Z" fill="#C77DFF" filter="url(#glow)"/>
-    <text x="874" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">1</text>
+    <text x="874" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">3</text>
     <text x="874" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8B98A5">SaaS product founded</text>
   </g>
 

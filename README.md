@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Mukitu/Mukitu/main/assets/banner.svg" width="100%" alt="Mukitu Islam Nishat — Founder & Owner @ SkillProof" />
+<img src="https://raw.githubusercontent.com/Mukitu/mukitu/main/banner.svg" width="100%" alt="Mukitu Islam Nishat — Founder & Owner @ SkillProof" />
 
 <br/><br/>
 
@@ -84,7 +84,7 @@ Day-by-day structured course roadmaps (objectives, practice tasks, mini-projects
 ## 🎮 Skill Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Mukitu/Mukitu/main/assets/stats-panel.svg" width="100%" alt="Skill stats — player card" />
+  <img src="https://raw.githubusercontent.com/Mukitu/mukitu/main/stats-panel.svg" width="100%" alt="Skill stats — player card" />
 </div>
 
 ---

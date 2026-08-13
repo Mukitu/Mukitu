@@ -1,0 +1,125 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0E1A"/>
+      <stop offset="100%" stop-color="#111A2C"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#182338"/>
+      <stop offset="100%" stop-color="#101828"/>
+    </linearGradient>
+
+    <linearGradient id="barBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E7BFF"/>
+      <stop offset="100%" stop-color="#67D6FF"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02B96B"/>
+      <stop offset="100%" stop-color="#5CF2A6"/>
+    </linearGradient>
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7A3FFF"/>
+      <stop offset="100%" stop-color="#C77DFF"/>
+    </linearGradient>
+    <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8A00"/>
+      <stop offset="100%" stop-color="#FFD166"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" rx="20" fill="url(#panelBg)" stroke="#2A3A55" stroke-width="2"/>
+  <rect x="10" y="10" width="1180" height="740" rx="14" fill="none" stroke="#1D2A40" stroke-width="1"/>
+
+  <!-- corner ticks -->
+  <path d="M30 60 L30 30 L60 30" fill="none" stroke="#39D0D0" stroke-width="2"/>
+  <path d="M1170 60 L1170 30 L1140 30" fill="none" stroke="#39D0D0" stroke-width="2"/>
+  <path d="M30 700 L30 730 L60 730" fill="none" stroke="#39D0D0" stroke-width="2"/>
+  <path d="M1170 700 L1170 730 L1140 730" fill="none" stroke="#39D0D0" stroke-width="2"/>
+
+  <!-- header -->
+  <text x="60" y="70" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#F0F6FC">SKILL STATS</text>
+  <text x="60" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#5B7083" letter-spacing="2">PLAYER CARD // MUKITU ISLAM NISHAT</text>
+  <line x1="60" y1="112" x2="1140" y2="112" stroke="#243447" stroke-width="1.5"/>
+
+  <!-- stat cards -->
+  <g>
+    <rect x="60" y="140" width="346" height="110" rx="12" fill="url(#cardBg)" stroke="#2A3A55" stroke-width="1.5"/>
+    <polygon points="95,175 110,195 80,195" fill="#67D6FF" filter="url(#glow)"/>
+    <text x="140" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">15+</text>
+    <text x="140" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8B98A5">Projects shipped</text>
+
+    <rect x="427" y="140" width="346" height="110" rx="12" fill="url(#cardBg)" stroke="#2A3A55" stroke-width="1.5"/>
+    <circle cx="462" cy="188" r="15" fill="none" stroke="#5CF2A6" stroke-width="2.5" filter="url(#glow)"/>
+    <line x1="462" y1="188" x2="462" y2="178" stroke="#5CF2A6" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="462" y1="188" x2="469" y2="192" stroke="#5CF2A6" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="507" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">3+</text>
+    <text x="507" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8B98A5">Years of coding</text>
+
+    <rect x="794" y="140" width="346" height="110" rx="12" fill="url(#cardBg)" stroke="#2A3A55" stroke-width="1.5"/>
+    <path d="M812 195 L822 175 L832 188 L842 172 L852 195 Z" fill="#C77DFF" filter="url(#glow)"/>
+    <text x="874" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#F0F6FC">1</text>
+    <text x="874" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8B98A5">SaaS product founded</text>
+  </g>
+
+  <!-- skill bars -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <!-- React/Next -->
+    <text x="60" y="296" font-size="14" font-weight="600" fill="#F0F6FC">React / Next.js</text>
+    <rect x="340" y="280" width="700" height="16" rx="8" fill="#182338" stroke="#243447"/>
+    <rect x="340" y="280" width="630" height="16" rx="8" fill="url(#barBlue)" filter="url(#glow)"/>
+    <text x="1060" y="293" font-size="13" fill="#67D6FF" text-anchor="end">90%</text>
+
+    <!-- Node/Express -->
+    <text x="60" y="346" font-size="14" font-weight="600" fill="#F0F6FC">Node.js / Express</text>
+    <rect x="340" y="330" width="700" height="16" rx="8" fill="#182338" stroke="#243447"/>
+    <rect x="340" y="330" width="616" height="16" rx="8" fill="url(#barBlue)" filter="url(#glow)"/>
+    <text x="1060" y="343" font-size="13" fill="#67D6FF" text-anchor="end">88%</text>
+
+    <!-- MongoDB/SQL -->
+    <text x="60" y="396" font-size="14" font-weight="600" fill="#F0F6FC">MongoDB / SQL</text>
+    <rect x="340" y="380" width="700" height="16" rx="8" fill="#182338" stroke="#243447"/>
+    <rect x="340" y="380" width="574" height="16" rx="8" fill="url(#barGreen)" filter="url(#glow)"/>
+    <text x="1060" y="393" font-size="13" fill="#5CF2A6" text-anchor="end">82%</text>
+
+    <!-- Flutter/Dart -->
+    <text x="60" y="446" font-size="14" font-weight="600" fill="#F0F6FC">Flutter / Dart</text>
+    <rect x="340" y="430" width="700" height="16" rx="8" fill="#182338" stroke="#243447"/>
+    <rect x="340" y="430" width="595" height="16" rx="8" fill="url(#barGreen)" filter="url(#glow)"/>
+    <text x="1060" y="443" font-size="13" fill="#5CF2A6" text-anchor="end">85%</text>
+
+    <!-- Python/AI-ML -->
+    <text x="60" y="496" font-size="14" font-weight="600" fill="#F0F6FC">Python / AI-ML</text>
+    <rect x="340" y="480" width="700" height="16" rx="8" fill="#182338" stroke="#243447"/>
+    <rect x="340" y="480" width="546" height="16" rx="8" fill="url(#barPurple)" filter="url(#glow)"/>
+    <text x="1060" y="493" font-size="13" fill="#C77DFF" text-anchor="end">78%</text>
+
+    <!-- Tailwind/UI -->
+    <text x="60" y="546" font-size="14" font-weight="600" fill="#F0F6FC">Tailwind / UI Design</text>
+    <rect x="340" y="530" width="700" height="16" rx="8" fill="#182338" stroke="#243447"/>
+    <rect x="340" y="530" width="644" height="16" rx="8" fill="url(#barAmber)" filter="url(#glow)"/>
+    <text x="1060" y="543" font-size="13" fill="#FFD166" text-anchor="end">92%</text>
+  </g>
+
+  <line x1="60" y1="590" x2="1140" y2="590" stroke="#243447" stroke-width="1.5"/>
+
+  <!-- footer tags -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#5B7083">
+    <text x="60" y="622">FOUNDER &amp; OWNER — SKILLPROOF</text>
+    <text x="60" y="646">FULL STACK · MOBILE · AI/ML</text>
+    <text x="60" y="670">BASED IN BANGLADESH</text>
+  </g>
+
+  <g transform="translate(870,600)">
+    <rect width="270" height="90" rx="10" fill="url(#cardBg)" stroke="#39D0D0" stroke-width="1.5"/>
+    <text x="20" y="34" font-size="13" fill="#8B98A5">STATUS</text>
+    <text x="20" y="62" font-size="18" font-weight="700" fill="#5CF2A6">AVAILABLE FOR PROJECTS</text>
+  </g>
+</svg>

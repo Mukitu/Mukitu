@@ -1,0 +1,55 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="50%" stop-color="#0F2027"/>
+      <stop offset="100%" stop-color="#1A2F3D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#39D0D0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <!-- subtle grid dots -->
+  <g fill="#58A6FF" opacity="0.15">
+    <circle cx="60" cy="40" r="1.6"/><circle cx="110" cy="40" r="1.6"/><circle cx="160" cy="40" r="1.6"/>
+    <circle cx="60" cy="80" r="1.6"/><circle cx="110" cy="80" r="1.6"/><circle cx="160" cy="80" r="1.6"/>
+    <circle cx="1040" cy="260" r="1.6"/><circle cx="1090" cy="260" r="1.6"/><circle cx="1140" cy="260" r="1.6"/>
+    <circle cx="1040" cy="290" r="1.6"/><circle cx="1090" cy="290" r="1.6"/><circle cx="1140" cy="290" r="1.6"/>
+  </g>
+
+  <!-- left accent bar -->
+  <rect x="70" y="96" width="5" height="128" rx="2.5" fill="url(#accent)"/>
+
+  <text x="96" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#F0F6FC">
+    Mukitu Islam Nishat
+  </text>
+
+  <text x="97" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#58A6FF">
+    Founder &amp; Owner @ SkillProof
+  </text>
+
+  <text x="97" y="216" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#8B98A5">
+    Full Stack (MERN) Developer  ·  Flutter App Developer  ·  AI / ML Engineer
+  </text>
+
+  <!-- right side decorative badge -->
+  <g transform="translate(870,90)">
+    <rect width="260" height="140" rx="14" fill="#111927" stroke="#243447" stroke-width="1"/>
+    <circle cx="40" cy="40" r="16" fill="none" stroke="url(#accent)" stroke-width="2.5"/>
+    <path d="M33 40 L38 46 L48 33" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="66" y="35" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#F0F6FC">Available for</text>
+    <text x="66" y="53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#F0F6FC">Projects</text>
+    <line x1="24" y1="76" x2="236" y2="76" stroke="#243447" stroke-width="1"/>
+    <text x="24" y="102" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8B98A5">Based in Bangladesh</text>
+    <text x="24" y="124" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8B98A5">skillproof.top</text>
+  </g>
+</svg>
